@@ -1,0 +1,59 @@
+#menu{
+    margin: 3.6rem auto;
+    min-height: 115vh;
+    
+    width: 100vw;
+    max-width:60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    background-color: white;
+}
+
+.menuTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    color: #006241;
+}
+
+.menuDesc{
+    font-weight:300;
+    font-size: 1rem;
+}
+
+.menuImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.menuImg{
+    object-fit: cover;
+    height: 17rem;
+    margin: 0.5rem;
+    width: 14rem;
+}
+
+.menuBtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #006241;
+    font-size: 1rem;
+    color: white;
+}
+
+@media screen and (max-width:585px){
+.menuImg{
+    height: 48vh;
+    width:100vw;
+}
+
+}
